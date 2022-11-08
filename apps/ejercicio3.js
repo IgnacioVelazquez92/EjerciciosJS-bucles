@@ -4,12 +4,12 @@ guión*/
 
 // let frase;
 // let confirmacion = true;
-// let contador= 0;
 
 // while (confirmacion == true ) {
 //   frase = prompt("Ingresa la frase que quieras: ");
 //   confirmacion = confirm ("Pulse aceptar si desea ingresar una nueva frase");
-//   contador++;
-//   document.write(`frase ${contador} = ${frase} <br>`)
+//   if (confirmacion==true){
+//     document.write(` ${frase}-`)
+//   }else {document.write(` ${frase}`)}
 // }
 

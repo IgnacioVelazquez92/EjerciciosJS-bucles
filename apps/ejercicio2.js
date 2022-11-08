@@ -23,6 +23,9 @@
 //   } else if (nota==10){
 //     alert("Tu resultado fue Sobresaliente")
 //   }
-// } else {
-//   alert (`revisa el dato ingresado "${nota}" no es correcto. ¡Introduce un número válido!`)
+// }else if(isNaN(nota)) {
+//   alert (`revisa el dato ingresado no es correcto. ¡Introduce un número!`)
+// }
+// else {
+//   alert (`revisa el dato ingresado "${nota}" no es correcto. ¡Introduce un número del 1 al 10!`)
 // }
