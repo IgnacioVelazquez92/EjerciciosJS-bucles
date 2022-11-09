@@ -2,14 +2,14 @@
 salir con “cancelar” deben mostrarse todas las cadenas concatenadas con un
 guión*/
 
-// let frase;
-// let confirmacion = true;
+let frase;
+let confirmacion = true;
 
-// while (confirmacion == true ) {
-//   frase = prompt("Ingresa la frase que quieras: ");
-//   confirmacion = confirm ("Pulse aceptar si desea ingresar una nueva frase");
-//   if (confirmacion==true){
-//     document.write(` ${frase}-`)
-//   }else {document.write(` ${frase}`)}
-// }
+while (confirmacion == true ) {
+  frase = prompt("Ingresa la frase que quieras: ");
+  confirmacion = confirm ("Pulse aceptar si desea ingresar una nueva frase");
+  if (confirmacion==true){
+    document.write(` ${frase}-`)
+  }else {document.write(` ${frase}`)}
+}
 
